@@ -1,11 +1,9 @@
-import heroImage from "./assets/hero.JPG";
-
 function App() {
   return (
     <main className="relative h-screen h-[100dvh] w-full overflow-hidden bg-black">
       {/* Full-screen hero image */}
       <img
-        src={heroImage}
+        src="src/public/hero.JPG"
         alt="Photography portfolio"
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
